@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return(
-    <form method="post" action="mailer.php" className="form">
+    <form method="post" action="../mailer.php" className="form">
       <div className="row">
         <div className="col span-1-of-3">
           <label>Name</label>
