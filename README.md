@@ -17,9 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 I have used Jest as a testing framework. Make sure to have Jest installed by running:
 ### `npm install -D jest`
 
-And
-
-Run following command to run tests
+And run following command to run tests
 ### `test`
 
 ### `npm run build`
