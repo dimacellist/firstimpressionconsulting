@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Navigation from '../components/Navigation';
-import Cover from '../cover/Cover';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Navigation from '../Navigation'
+import Cover from '../Cover'
 import FirstSection from '../main/FirstSection'
 import MainSection from '../main/MainSection'
 import Testimonials from '../testimonials/Testimonials'
 import Team from '../team/Team'
 import Contact from '../contact/Contact'
-import Footer from '../components/Footer'
+import Footer from '../Footer'
 
 describe('Webpage renderes all components', () => {
   it('Navigation Section Renders', () => {
@@ -28,31 +28,31 @@ describe('Webpage renderes all components', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('Main Section Renders', () => {
+  it('First Section Renders', () => {
     const div = document.createElement('div');
     ReactDOM.render(<FirstSection />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('Main Section Renders', () => {
+  it('Testimonials Section Renders', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Testimonials />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('Main Section Renders', () => {
+  it('Team Section Renders', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Team />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('Main Section Renders', () => {
+  it('Contact Section Renders', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Contact />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('Main Section Renders', () => {
+  it('Footer Section Renders', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Footer />, div);
     ReactDOM.unmountComponentAtNode(div);

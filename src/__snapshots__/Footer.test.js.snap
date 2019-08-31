@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Should Contain 3 links 1`] = `ShallowWrapper {}`;
