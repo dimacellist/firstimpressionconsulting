@@ -8,12 +8,12 @@ FirstImpressionConsulting is one of them
 You can view original non-React web page here:
 [firstimpressionconsulting](http://www.firstimpressionconsulting.net)
 
-In order to view the project, clone the repo and cd to the project directory.
+In order to view the project, clone the repo and cd to the project directory.  
 Open console and run:
 
 ### `npm start`
 
-Make sure to have Node.js installed on your machine
+Make sure to have Node.js installed on your machine. 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 For the unit testing I have used Jest, Enzyme and Chai.
