@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Navigation from '../Navigation'
+import Navigation from '../components/Navigation'
 import Cover from '../Cover'
 import FirstSection from '../main/FirstSection'
 import MainSection from '../main/MainSection'
 import Testimonials from '../testimonials/Testimonials'
 import Team from '../team/Team'
 import Contact from '../contact/Contact'
-import Footer from '../Footer'
+import Footer from '../components/Footer'
 
 describe('Webpage renderes all components', () => {
   it('Navigation Section Renders', () => {

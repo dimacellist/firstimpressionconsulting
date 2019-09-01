@@ -32,7 +32,7 @@ function Form() {
             <label>&nbsp;</label>
         </div>
         <div className="col span-2-of-3">
-          <input type="submit" value="SUBMIT" />
+          <input class="submit" type="submit" value="SUBMIT" />
         </div>
       </div>  
     </form>

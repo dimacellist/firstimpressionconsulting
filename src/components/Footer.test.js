@@ -10,8 +10,8 @@ Enzyme.configure({ adapter: new Adapter() })
 it('Footer Should Contain 3 links', () => {
   const component = mount(<Footer />)
 
-  expect(component.exists('.social')).to.equal(true);
-  expect(component.exists('.ion-social-facebook-outline')).to.equal(true);
-  expect(component.find('li')).to.have.lengthOf(3);
-  
+  expect(component.exists('.social')).to.equal(true)
+  expect(component.exists('.ion-social-facebook-outline')).to.equal(true)
+  expect(component.find('li')).to.have.lengthOf(3)
+  expect(component.text()).to.contain('2019')
 })
