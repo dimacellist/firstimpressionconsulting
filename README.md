@@ -19,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 For the unit testing I have used Jest, Enzyme and Chai.
 Installation: 
 ### `npm install --save-dev enzyme enzyme-adapter-react-16 jest-enzyme babel-jest`
+
 ### `$ npm install chai`
 
 And run following command to run tests
