@@ -13,19 +13,16 @@ Open console and run:
 
 ### `npm start`
 
-Make sure to have Node.js installed on your machine. 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Make sure to have Node.js installed on your machine.   
 
-For the unit testing I have used Jest, Enzyme and Chai.
-Installation: 
+For the unit testing I have used Jest, Enzyme and Chai library.  
+Installation:   
 ### `npm install --save-dev enzyme enzyme-adapter-react-16 jest-enzyme babel-jest`
 
 ### `$ npm install chai`
 
-And run following command to run tests
+In order to run tests, run following command in the terminal
 ### `test`
-
-
 
 ### `npm run build`
 Builds the app for production to the `build` folder.<br>
