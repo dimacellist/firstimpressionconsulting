@@ -24,11 +24,14 @@ Installation:
 In order to run tests, run following command in the terminal
 Change the following line in the package.json:
 
+```
 ...
 scripts: {
  "test": "jest",
  ...
 }
+
+```
 
 ### `npm test`
 
