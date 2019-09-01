@@ -3,6 +3,8 @@ The longterm project to migrate all my web pages to react.
 
 FirstImpressionConsulting
 
+
+
 You can view original non-React web page here:
 [firstimpressionconsulting](http://www.firstimpressionconsulting.net)
 
@@ -14,11 +16,15 @@ Open console and run:
 Make sure to have Node.js installed on your machine
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-I have used Jest as a testing framework. Make sure to have Jest installed by running:
-### `npm install -D jest`
+For the unit testing I have used Jest, Enzyme and Chai.
+Installation: 
+### `npm install --save-dev enzyme enzyme-adapter-react-16 jest-enzyme babel-jest`
+### `$ npm install chai`
 
 And run following command to run tests
 ### `test`
+
+
 
 ### `npm run build`
 Builds the app for production to the `build` folder.<br>
