@@ -1,12 +1,12 @@
 import React from 'react'
-import Navigation from './components/Navigation'
-import Cover from './cover/Cover'
+import Navigation from './Navigation'
+import Cover from './Cover'
 import FirstSection from './main/FirstSection'
 import MainSection from './main/MainSection'
 import Testimonials from './testimonials/Testimonials'
 import Team from './team/Team'
 import Contact from './contact/Contact'
-import Footer from './components/Footer'
+import Footer from './Footer'
 
 class App extends React.Component {
   constructor() {
