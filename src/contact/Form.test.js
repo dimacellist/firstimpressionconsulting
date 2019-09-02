@@ -19,6 +19,6 @@ describe('Form', () => {
   })
 
   it('Contact form submits data to certain file', () => {
-    expect(component.find("form").prop("action")).to.equal("../mailer.php");
+    expect(component.find("form").prop("action")).to.equal("#");
   })
 })
