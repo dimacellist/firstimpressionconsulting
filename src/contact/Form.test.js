@@ -12,9 +12,9 @@ describe('Form', () => {
 
   it('Contact form to contain Name, Email, Message input fields', () => {
     expect(component.containsMatchingElement(
-      <input type="text" name="name" id="name" placeholder="Your name" required />,
-      <input type="email" name="email" id="email" placeholder="Your email" required />,
-      <textarea name="message" placeholder="Your message"></textarea>
+      <input type="text" />,
+      <input type="email" />,
+      <textarea name="message"></textarea>
     )).to.equal(true)
   })
 
